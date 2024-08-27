@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <div id="logoDiv">
+        <strong>mrittika</strong>
+      </div>
+
+      <div class="hamurgerMenuContainer">
+        <span></span><span></span><span></span>
+      </div>
+      <div id="menuBar">
+        <a href="#home" class="active">home</a>
+        <a href="#plans">plans</a>
+        <a href="#facilities">facilities</a>
+        <a href="#contactUs">contact us</a>
+      </div>
+      <div id="myCart">
+        <button>cart</button>
+      </div>
+    </header>
+    <aside>
+      <div id="menuBar">
+        <a href="#home" class="active">home</a>
+        <a href="#plans">plans</a>
+        <a href="#facilities">facilities</a>
+        <a href="#contactUs">contact us</a>
+      </div>
+      <div id="myCart">
+        <button>cart</button>
+      </div>
+    </aside>
+    <main>
+      <!-- hero section -->
+      <section class="hero" id="home">
+        <div class="container">
+          <h4>mrittika's beach house</h4>
+          <h2 id="first_main">
+            dare to live the life <br /><span>you're always wanted.</span>
+          </h2>
+          <p class="hero_para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti
+            error aliquid eveniet iste modi animi repellat voluptate, velit
+            quidem corporis voluptatibus quaerat hic cum rem, sapiente molestiae
+            ab? Quisquam, tempora.
+          </p>
+        </div>
+      </section>
+
+      <!-- booking form section -->
+      <section id="bookingFormBox">
+        <div class="inputElements">
+          <div class="formItem">
+            <p class="formCaption">destination</p>
+            <select name="" id="">
+              <option value="select destination">Select destination</option>
+              <option value="india">India</option>
+              <option value="australia">Australia</option>
+              <option value="singapore">Singapore</option>
+              <option value="usa">USA</option>
+              <option value="japan">Japan</option>
+            </select>
+          </div>
+          <div class="formItem">
+            <p class="formCaption">number of persons</p>
+            <input type="number" id="" placeholder="Number of persons" />
+          </div>
+          <div class="formItem">
+            <p class="formCaption">check in</p>
+            <input type="date" id="" />
+          </div>
+          <div class="formItem">
+            <p class="formCaption">check out</p>
+            <input type="date" id="" />
+          </div>
+        </div>
+        <div class="bookingFormBtn">
+          <button>book now</button>
+        </div>
+      </section>
+
+      <!-- plans -->
+      <section id="plans">
+        <div class="planHeaderBox">
+          <div class="planHeaderText">
+            <h2 class="planHeader">trip planner</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
+              blanditiis ad atque quia quod quam tempora omnis labore nemo
+              quisquam aliquid repellendus, doloribus voluptate, sapiente
+              temporibus enim numquam illum. Molestiae.
+            </p>
+            <button class="allPlansBtn">view all plans</button>
+          </div>
+        </div>
+        <div class="plans_Container">
+          <h2>destinations & plans</h2>
+          <div class="plansContainer">
+            <div class="planBox">
+              <figure>
+                <img
+                  src="Images/newyork.jpg"
+                  loading="lazy"
+                  class="planImg"
+                  alt="newyork"
+                  srcset=""
+                />
+                <figcaption>01</figcaption>
+              </figure>
+              <div class="textBox">
+                <div class="price_guideBox">
+                  <p class="guide">guided tours</p>
+                  <p><strong>$99</strong>/day</p>
+                </div>
+                <div class="destinationBox">
+                  <h3 class="destinationName">new york</h3>
+                </div>
+                <div class="rating_durationBox">
+                  <p class="starRating">
+                    <span class="starSymbol">&#9733;</span
+                    ><span class="starValue">5</span>
+                  </p>
+                  <p class="tourDuration">14 days tour</p>
+                </div>
+                <a href="#" class="planDetailsLink">see details</a>
+              </div>
+            </div>
+
+            <div class="planBox">
+              <figure>
+                <img
+                  src="Images/newyork.jpg"
+                  loading="lazy"
+                  class="planImg"
+                  alt="newyork"
+                  srcset=""
+                />
+                <figcaption>02</figcaption>
+              </figure>
+              <div class="textBox">
+                <div class="price_guideBox">
+                  <p class="guide">guided tours</p>
+                  <p><strong>$99</strong>/day</p>
+                </div>
+                <div class="destinationBox">
+                  <h3 class="destinationName">new york</h3>
+                </div>
+                <div class="rating_durationBox">
+                  <p class="starRating">
+                    <span class="starSymbol">&#9733;</span
+                    ><span class="starValue">5</span>
+                  </p>
+                  <p class="tourDuration">14 days tour</p>
+                </div>
+                <a href="#" class="planDetailsLink">see details</a>
+              </div>
+            </div>
+
+            <div class="planBox">
+              <figure>
+                <img
+                  src="Images/newyork.jpg"
+                  loading="lazy"
+                  class="planImg"
+                  alt="newyork"
+                  srcset=""
+                />
+                <figcaption>03</figcaption>
+              </figure>
+              <div class="textBox">
+                <div class="price_guideBox">
+                  <p class="guide">guided tours</p>
+                  <p><strong>$99</strong>/day</p>
+                </div>
+                <div class="destinationBox">
+                  <h3 class="destinationName">new york</h3>
+                </div>
+                <div class="rating_durationBox">
+                  <p class="starRating">
+                    <span class="starSymbol">&#9733;</span
+                    ><span class="starValue">5</span>
+                  </p>
+                  <p class="tourDuration">14 days tour</p>
+                </div>
+                <a href="#" class="planDetailsLink">see details</a>
+              </div>
+            </div>
+          </div>
+          <!-- <a href="#" class="seeAllPlansLink" title="See all plans">see all→</a> -->
+        </div>
+      </section>
+
+      <!-- facilities -->
+      <section id="facilities">
+        <div class="container">
+          <div class="heading_container">
+            <h2>room & suites</h2>
+            <p>pick a room that suits your desire and budget</p>
+          </div>
+
+          <div class="room_grid">
+            <div class="room_card two_row_container">
+              <figure>
+                <img src="Images/bedroom_3.jpg" alt="" />
+              </figure>
+              <div class="room_desc">
+                <h3>deluxe room</h3>
+                <p class="price">$199/night</p>
+              </div>
+            </div>
+            <div class="four_grid">
+              <div class="room_card">
+                <figure>
+                  <img src="Images/bedroom_1.jpg" alt="" />
+                </figure>
+                <div class="room_desc">
+                  <h3>premium room</h3>
+                  <p class="price">$249/night</p>
+                </div>
+              </div>
+
+              <div class="room_card">
+                <figure>
+                  <img src="Images/bedroom_2.jpg" alt="" />
+                </figure>
+                <div class="room_desc">
+                  <h3>twin room</h3>
+                  <p class="price">$499/night</p>
+                </div>
+              </div>
+
+              <div class="room_card">
+                <figure>
+                  <img src="Images/bedroom_1.jpg" alt="" />
+                </figure>
+                <div class="room_desc">
+                  <h3>special room</h3>
+                  <p class="price">$99/night</p>
+                </div>
+              </div>
+
+              <div class="room_card">
+                <figure>
+                  <img src="Images/bedroom_2.jpg" alt="" />
+                </figure>
+                <div class="room_desc">
+                  <h3>single room</h3>
+                  <p class="price">$49/night</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contactUs">
+      <h1>subscribe <br />to our newsletter</h1>
+      <form action="" class="newsletter_form_container">
+        <input type="email" name="" placeholder="jhondoe@gmail.com" />
+        <button>subscribe</button>
+      </form>
+      <div class="footer_navigation_container">
+        <div id="logoDiv">
+          <strong>mrittika</strong>
+        </div>
+        <div class="navigation_links">
+          <a href="#home">home</a>
+          <a href="#plans">plans</a>
+          <a href="#facilities">facilities</a>
+          <a href="#contactUs">contact us</a>
+        </div>
+        <div class="social_links_container"></div>
+      </div>
+    </footer>
+  </body>
+</html>
